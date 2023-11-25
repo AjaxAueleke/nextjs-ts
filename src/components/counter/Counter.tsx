@@ -1,5 +1,6 @@
 import { Icon } from '@components/icon/Icon'
 import styles from './counter.module.scss'
+import React from 'react'
 
 interface CounterProps {
   count: number

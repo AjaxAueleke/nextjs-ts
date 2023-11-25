@@ -2,7 +2,6 @@ import {
   createStore,
   applyMiddleware,
   combineReducers,
-  AnyAction,
   Reducer,
   Store,
 } from 'redux'
@@ -18,10 +17,10 @@ export interface AppState {
 
 const combinedReducers = combineReducers({ counter: counterReducer })
 
-const reducer: Reducer<AppState, AnyAction> = (state, action) => {
+const reducer: Reducer<AppState> = (state, action) => {
   if (action.type === HYDRATE) {
     /* client state will be overwritten
-     * by server or static state hydation.
+     * by server or static state hydration.
      * Implement state preservation as needed.
      * see: https://github.com/kirill-konshin/next-redux-wrapper#server-and-client-state-separation
      */

@@ -1,5 +1,6 @@
 import { HomepageCounter } from '@containers/counter/HomepageCounter'
 import Link from 'next/link'
+import React from 'react'
 
 /**
  * Homepage

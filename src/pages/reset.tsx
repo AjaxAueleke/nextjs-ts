@@ -1,7 +1,8 @@
 import { HomepageCounter } from '@containers/counter/HomepageCounter'
 import Link from 'next/link'
-import { storeWrapper } from '../store/store'
+import { storeWrapper } from '@store/store'
 import { reset } from '@store/counter/counterActions'
+import React from 'react'
 
 /**
  * Homepage
