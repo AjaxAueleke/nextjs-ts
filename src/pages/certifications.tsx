@@ -9,7 +9,7 @@ const Certification: React.FC = () => {
   return (
     <main>
       <h1>Certifications!</h1>
-      <p>This is a certification page with list of my certifications</p>
+      <p>This is a certification page with a list of my certifications.</p>
       <Link href={'/reset'}>reset page</Link>
       <HomepageCounter />
     </main>
